@@ -1,4 +1,5 @@
 Line Etot JS
+`Version : 0.2.1`
 
 # require node >= v8.x.x
 check your nodejs version
@@ -11,11 +12,6 @@ How to run ?
 - `git clone https://github.com/rivaimunte/LineEtotJS.git`
 - `cd LineEtotJS && npm install`
 - `npm start`
-
-Version Line Etot JS ?
-____
--`Version : 0.2.1`
--`Forked Version By @TAB_TEAM`
 
 New
 -------
