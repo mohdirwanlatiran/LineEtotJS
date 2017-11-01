@@ -5,6 +5,9 @@ check your nodejs version
 `node -v`
 [upgrade nodejs](https://google.com/)
 
+Version LineEtotJS ?
+____
+`Version : 0.2.1`
 
 How to run ?
 ------
@@ -14,17 +17,18 @@ How to run ?
 
 New
 -------
-- Msg
-- Mute
-- Unmute
-- Add Staff
-- Deleted Staff
+- Penampilan Script
+- Add Contact By Command
+- CekId By Command (Bukan Myid)
+- Broadcast Group
+- Create Group By Command
 
 Note
 -------
 - Jangan Perjual Belikan Script Ini!
 - Ini Alphat Lama Tapi Di Upgrade
 - Gunakan Script Ini Dengan Bijak!
+- Mohon Maaf Ban,Unban,Banlist Di Skip Dulu :(
 
 Still work :construction_worker:
 ----
