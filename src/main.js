@@ -33,14 +33,14 @@ class LINE extends LineAPI {
         this.sendStaff = 0;
         this.stateStatus = {
             mute: 0,
-            lockinvite: 0,
-            lockupdategroup: 0,
-            lockjoin: 0,
-            lockcancel: 1,
-            kick:1,
-            cancel: 1,
             bc: 0,
             bmsg: 1,
+            kick: 1,
+            cancel: 1,
+            lockjoin: 0,
+            lockinvite: 0,
+            lockcancel: 1,
+            lockupdategroup: 0,
         }
       
       this.keyhelp = "\
@@ -68,7 +68,7 @@ O̸͟͞S̸͟͞ S̸͟͞T̸͟͞A̸͟͞F̸͟͞F̸͟͞ C̸͟͞O̸͟͞M̸͟͞M̸͟͞A
 👥 Msg\n\
 👥 Tag\n\
 👥 Kickall (s̸t̸a̸t̸u̸s̸ k̸i̸c̸k̸ o̸n̸)\n\
-👥 Kuy balik [left from group]\n\
+👥 Kuy balik [l̸e̸f̸t̸ d̸a̸r̸i̸ g̸r̸u̸p̸]\n\
 👥 Setting\n\
 👥 Kick On/Off\n\
 👥 Cancel On/Off\n\
@@ -531,7 +531,7 @@ B̸͟͞Y̸͟͞ D̸͟͞E̸͟͞S̸͟͞T̸͟͞R̸͟͞O̸͟͞Y̸͟͞E̸͟͞R̸͟͞ T
 
         if(txt == 'halo') {
            if(isAdminOrBot(seq.from) || isStaffOrBot(seq.from)) {
-        this._sendMessage(seq, 'Halo Juga Admin Or Staff OS');
+        this._sendMessage(seq, 'Apaan dah, lu gabut ya (҂-̀_-́)');
            }
         }else if(txt == 'halo') {
            if(!isAdminOrBot(seq.from) || !isStaffOrBot(seq.from)) {
@@ -553,12 +553,12 @@ B̸͟͞Y̸͟͞ D̸͟͞E̸͟͞S̸͟͞T̸͟͞R̸͟͞O̸͟͞Y̸͟͞E̸͟͞R̸͟͞ T
 		}
 
         if(txt == 'speed') {
-            const curTime = (Date.now() / 1000);
+            const curTime = (Date.now() / 9000);
 
             await this._sendMessage(seq,'Wait tholol....');
 
 
-            const rtime = (Date.now() / 1000) - curTime;
+            const rtime = (Date.now() / 9000) - curTime;
             await this._sendMessage(seq, `${rtime} second`);
         }
 
