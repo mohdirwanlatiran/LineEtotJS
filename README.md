@@ -9,7 +9,7 @@ check your nodejs version
 
 How to run ?
 ------
-- `git clone https://github.com/rivaimunte/LineEtotJS.git`
+- `git clone https://github.com/Rizerr/LineEtotJS.git`
 - `cd LineEtotJS && npm install`
 - `npm start`
 
@@ -26,7 +26,6 @@ Note
 - Jangan Perjual Belikan Script Ini!
 - Ini Alphat Lama Tapi Di Upgrade
 - Gunakan Script Ini Dengan Bijak!
-- Mohon Maaf Ban,Unban,Banlist Di Skip Dulu :(
 
 Still work :construction_worker:
 ----
@@ -36,4 +35,4 @@ Still work :construction_worker:
 
 Author
 ------
-[@rivaimunte](http://line.me/ti/p/~kobe2k17)
+[@hrmkrizer](http://line.me/ti/p/~hrmkrizer)
